@@ -1,0 +1,32 @@
+{
+  "Imovel" : {
+        "CodImovel": 9234772,
+        "TipoImovel": "Apartamento",
+        "Endereco": {
+          "Logradouro": "Rua Olimpiadas",
+          "Numero": "",
+          "Complemento": "",
+          "CEP": "",
+          "Bairro": "Dom Feliciano",
+          "Cidade": "",
+          "Estado": ""
+        },
+        "PrecoVenda": 0,
+        "Dormitorios": 2,
+        "Suites": 0,
+        "Vagas": 1,
+        "AreaUtil": 52,
+        "AreaTotal": 52,
+        "Fotos": [
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/imoveis/2753754/zap820251/c0ada3b426a34a2880a7_m.jpg",
+            "Principal": true,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          }
+        ],
+        "SubtipoImovel": "Apartamento Padrão",
+        "ZapID": "im08181774"
+      }
+}

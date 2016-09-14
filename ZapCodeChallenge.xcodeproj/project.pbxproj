@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E503A6201D8780B50003DC64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E503A61F1D8780B50003DC64 /* AppDelegate.swift */; };
+		E503A6221D8780B50003DC64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E503A6211D8780B50003DC64 /* ViewController.swift */; };
+		E503A6251D8780B50003DC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E503A6231D8780B50003DC64 /* Main.storyboard */; };
+		E503A6271D8780B50003DC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E503A6261D8780B50003DC64 /* Assets.xcassets */; };
+		E503A62A1D8780B50003DC64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E503A6281D8780B50003DC64 /* LaunchScreen.storyboard */; };
+		E503A6351D8780B50003DC64 /* ZapCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E503A6341D8780B50003DC64 /* ZapCodeChallengeTests.swift */; };
+		E503A6401D8780B50003DC64 /* ZapCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E503A63F1D8780B50003DC64 /* ZapCodeChallengeUITests.swift */; };
+		E523374A1D88D31E00B54043 /* ObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52337491D88D31E00B54043 /* ObjectManager.swift */; };
+		E523374C1D88D34000B54043 /* ImmobileObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E523374B1D88D34000B54043 /* ImmobileObject.swift */; };
+		E523374E1D88D3EB00B54043 /* JsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E523374D1D88D3EB00B54043 /* JsonManager.swift */; };
+		E52337571D88D57F00B54043 /* 9234772.json in Resources */ = {isa = PBXBuildFile; fileRef = E52337501D88D57F00B54043 /* 9234772.json */; };
+		E52337581D88D57F00B54043 /* 9234774.json in Resources */ = {isa = PBXBuildFile; fileRef = E52337511D88D57F00B54043 /* 9234774.json */; };
+		E52337591D88D57F00B54043 /* 9234775.json in Resources */ = {isa = PBXBuildFile; fileRef = E52337521D88D57F00B54043 /* 9234775.json */; };
+		E523375A1D88D57F00B54043 /* 9234776.json in Resources */ = {isa = PBXBuildFile; fileRef = E52337531D88D57F00B54043 /* 9234776.json */; };
+		E523375B1D88D57F00B54043 /* 9235241.json in Resources */ = {isa = PBXBuildFile; fileRef = E52337541D88D57F00B54043 /* 9235241.json */; };
+		E523375C1D88D57F00B54043 /* 9235243.json in Resources */ = {isa = PBXBuildFile; fileRef = E52337551D88D57F00B54043 /* 9235243.json */; };
+		E523375D1D88D57F00B54043 /* imoveis.json in Resources */ = {isa = PBXBuildFile; fileRef = E52337561D88D57F00B54043 /* imoveis.json */; };
+		E52337621D88E8C900B54043 /* Int + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52337611D88E8C900B54043 /* Int + Extension.swift */; };
+		E59259691D8791FE00BFB214 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59259681D8791FE00BFB214 /* MainTableViewCell.swift */; };
+		E592596C1D87A43500BFB214 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E592596B1D87A43500BFB214 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E503A6311D8780B50003DC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E503A6141D8780B50003DC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E503A61B1D8780B50003DC64;
+			remoteInfo = ZapCodeChallenge;
+		};
+		E503A63C1D8780B50003DC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E503A6141D8780B50003DC64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E503A61B1D8780B50003DC64;
+			remoteInfo = ZapCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E503A61C1D8780B50003DC64 /* ZapCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZapCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E503A61F1D8780B50003DC64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E503A6211D8780B50003DC64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E503A6241D8780B50003DC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E503A6261D8780B50003DC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E503A6291D8780B50003DC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E503A62B1D8780B50003DC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E503A6301D8780B50003DC64 /* ZapCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZapCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E503A6341D8780B50003DC64 /* ZapCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZapCodeChallengeTests.swift; sourceTree = "<group>"; };
+		E503A6361D8780B50003DC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E503A63B1D8780B50003DC64 /* ZapCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZapCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E503A63F1D8780B50003DC64 /* ZapCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZapCodeChallengeUITests.swift; sourceTree = "<group>"; };
+		E503A6411D8780B50003DC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52337491D88D31E00B54043 /* ObjectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectManager.swift; sourceTree = "<group>"; };
+		E523374B1D88D34000B54043 /* ImmobileObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmobileObject.swift; sourceTree = "<group>"; };
+		E523374D1D88D3EB00B54043 /* JsonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonManager.swift; sourceTree = "<group>"; };
+		E52337501D88D57F00B54043 /* 9234772.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9234772.json; sourceTree = "<group>"; };
+		E52337511D88D57F00B54043 /* 9234774.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9234774.json; sourceTree = "<group>"; };
+		E52337521D88D57F00B54043 /* 9234775.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9234775.json; sourceTree = "<group>"; };
+		E52337531D88D57F00B54043 /* 9234776.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9234776.json; sourceTree = "<group>"; };
+		E52337541D88D57F00B54043 /* 9235241.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9235241.json; sourceTree = "<group>"; };
+		E52337551D88D57F00B54043 /* 9235243.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 9235243.json; sourceTree = "<group>"; };
+		E52337561D88D57F00B54043 /* imoveis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = imoveis.json; sourceTree = "<group>"; };
+		E52337611D88E8C900B54043 /* Int + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int + Extension.swift"; sourceTree = "<group>"; };
+		E59259681D8791FE00BFB214 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		E592596B1D87A43500BFB214 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E503A6191D8780B50003DC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E503A62D1D8780B50003DC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E503A6381D8780B50003DC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E503A6131D8780B50003DC64 = {
+			isa = PBXGroup;
+			children = (
+				E503A61E1D8780B50003DC64 /* ZapCodeChallenge */,
+				E503A6331D8780B50003DC64 /* ZapCodeChallengeTests */,
+				E503A63E1D8780B50003DC64 /* ZapCodeChallengeUITests */,
+				E503A61D1D8780B50003DC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E503A61D1D8780B50003DC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E503A61C1D8780B50003DC64 /* ZapCodeChallenge.app */,
+				E503A6301D8780B50003DC64 /* ZapCodeChallengeTests.xctest */,
+				E503A63B1D8780B50003DC64 /* ZapCodeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E503A61E1D8780B50003DC64 /* ZapCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				E503A64F1D8781B60003DC64 /* AppDelegate */,
+				E523375E1D88E11A00B54043 /* Extension */,
+				E503A6511D8781C60003DC64 /* Manager */,
+				E503A64E1D8781AA0003DC64 /* Misc */,
+				E503A6501D8781C00003DC64 /* Objects */,
+				E503A64D1D87819F0003DC64 /* ViewControllers */,
+			);
+			path = ZapCodeChallenge;
+			sourceTree = "<group>";
+		};
+		E503A6331D8780B50003DC64 /* ZapCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E503A6341D8780B50003DC64 /* ZapCodeChallengeTests.swift */,
+				E503A6361D8780B50003DC64 /* Info.plist */,
+			);
+			path = ZapCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		E503A63E1D8780B50003DC64 /* ZapCodeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E503A63F1D8780B50003DC64 /* ZapCodeChallengeUITests.swift */,
+				E503A6411D8780B50003DC64 /* Info.plist */,
+			);
+			path = ZapCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+		E503A64D1D87819F0003DC64 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E59259671D8791E300BFB214 /* MainViewController */,
+				E592596A1D87A40C00BFB214 /* DetailViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E503A64E1D8781AA0003DC64 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				E523374F1D88D56400B54043 /* Json */,
+				E503A6231D8780B50003DC64 /* Main.storyboard */,
+				E503A6261D8780B50003DC64 /* Assets.xcassets */,
+				E503A6281D8780B50003DC64 /* LaunchScreen.storyboard */,
+				E503A62B1D8780B50003DC64 /* Info.plist */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		E503A64F1D8781B60003DC64 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E503A61F1D8780B50003DC64 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E503A6501D8781C00003DC64 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E523374B1D88D34000B54043 /* ImmobileObject.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		E503A6511D8781C60003DC64 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E52337491D88D31E00B54043 /* ObjectManager.swift */,
+				E523374D1D88D3EB00B54043 /* JsonManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		E523374F1D88D56400B54043 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				E52337501D88D57F00B54043 /* 9234772.json */,
+				E52337511D88D57F00B54043 /* 9234774.json */,
+				E52337521D88D57F00B54043 /* 9234775.json */,
+				E52337531D88D57F00B54043 /* 9234776.json */,
+				E52337541D88D57F00B54043 /* 9235241.json */,
+				E52337551D88D57F00B54043 /* 9235243.json */,
+				E52337561D88D57F00B54043 /* imoveis.json */,
+			);
+			name = Json;
+			sourceTree = "<group>";
+		};
+		E523375E1D88E11A00B54043 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E52337611D88E8C900B54043 /* Int + Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		E59259671D8791E300BFB214 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E503A6211D8780B50003DC64 /* ViewController.swift */,
+				E59259681D8791FE00BFB214 /* MainTableViewCell.swift */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		E592596A1D87A40C00BFB214 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E592596B1D87A43500BFB214 /* DetailViewController.swift */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E503A61B1D8780B50003DC64 /* ZapCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E503A6441D8780B50003DC64 /* Build configuration list for PBXNativeTarget "ZapCodeChallenge" */;
+			buildPhases = (
+				E503A6181D8780B50003DC64 /* Sources */,
+				E503A6191D8780B50003DC64 /* Frameworks */,
+				E503A61A1D8780B50003DC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZapCodeChallenge;
+			productName = ZapCodeChallenge;
+			productReference = E503A61C1D8780B50003DC64 /* ZapCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E503A62F1D8780B50003DC64 /* ZapCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E503A6471D8780B50003DC64 /* Build configuration list for PBXNativeTarget "ZapCodeChallengeTests" */;
+			buildPhases = (
+				E503A62C1D8780B50003DC64 /* Sources */,
+				E503A62D1D8780B50003DC64 /* Frameworks */,
+				E503A62E1D8780B50003DC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E503A6321D8780B50003DC64 /* PBXTargetDependency */,
+			);
+			name = ZapCodeChallengeTests;
+			productName = ZapCodeChallengeTests;
+			productReference = E503A6301D8780B50003DC64 /* ZapCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E503A63A1D8780B50003DC64 /* ZapCodeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E503A64A1D8780B50003DC64 /* Build configuration list for PBXNativeTarget "ZapCodeChallengeUITests" */;
+			buildPhases = (
+				E503A6371D8780B50003DC64 /* Sources */,
+				E503A6381D8780B50003DC64 /* Frameworks */,
+				E503A6391D8780B50003DC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E503A63D1D8780B50003DC64 /* PBXTargetDependency */,
+			);
+			name = ZapCodeChallengeUITests;
+			productName = ZapCodeChallengeUITests;
+			productReference = E503A63B1D8780B50003DC64 /* ZapCodeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E503A6141D8780B50003DC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Fabio Yudi Takahara";
+				TargetAttributes = {
+					E503A61B1D8780B50003DC64 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E503A62F1D8780B50003DC64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E503A61B1D8780B50003DC64;
+					};
+					E503A63A1D8780B50003DC64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E503A61B1D8780B50003DC64;
+					};
+				};
+			};
+			buildConfigurationList = E503A6171D8780B50003DC64 /* Build configuration list for PBXProject "ZapCodeChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E503A6131D8780B50003DC64;
+			productRefGroup = E503A61D1D8780B50003DC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E503A61B1D8780B50003DC64 /* ZapCodeChallenge */,
+				E503A62F1D8780B50003DC64 /* ZapCodeChallengeTests */,
+				E503A63A1D8780B50003DC64 /* ZapCodeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E503A61A1D8780B50003DC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E503A62A1D8780B50003DC64 /* LaunchScreen.storyboard in Resources */,
+				E503A6271D8780B50003DC64 /* Assets.xcassets in Resources */,
+				E523375D1D88D57F00B54043 /* imoveis.json in Resources */,
+				E523375C1D88D57F00B54043 /* 9235243.json in Resources */,
+				E52337581D88D57F00B54043 /* 9234774.json in Resources */,
+				E523375A1D88D57F00B54043 /* 9234776.json in Resources */,
+				E52337571D88D57F00B54043 /* 9234772.json in Resources */,
+				E503A6251D8780B50003DC64 /* Main.storyboard in Resources */,
+				E523375B1D88D57F00B54043 /* 9235241.json in Resources */,
+				E52337591D88D57F00B54043 /* 9234775.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E503A62E1D8780B50003DC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E503A6391D8780B50003DC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E503A6181D8780B50003DC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E523374C1D88D34000B54043 /* ImmobileObject.swift in Sources */,
+				E503A6221D8780B50003DC64 /* ViewController.swift in Sources */,
+				E59259691D8791FE00BFB214 /* MainTableViewCell.swift in Sources */,
+				E52337621D88E8C900B54043 /* Int + Extension.swift in Sources */,
+				E523374A1D88D31E00B54043 /* ObjectManager.swift in Sources */,
+				E523374E1D88D3EB00B54043 /* JsonManager.swift in Sources */,
+				E503A6201D8780B50003DC64 /* AppDelegate.swift in Sources */,
+				E592596C1D87A43500BFB214 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E503A62C1D8780B50003DC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E503A6351D8780B50003DC64 /* ZapCodeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E503A6371D8780B50003DC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E503A6401D8780B50003DC64 /* ZapCodeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E503A6321D8780B50003DC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E503A61B1D8780B50003DC64 /* ZapCodeChallenge */;
+			targetProxy = E503A6311D8780B50003DC64 /* PBXContainerItemProxy */;
+		};
+		E503A63D1D8780B50003DC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E503A61B1D8780B50003DC64 /* ZapCodeChallenge */;
+			targetProxy = E503A63C1D8780B50003DC64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E503A6231D8780B50003DC64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E503A6241D8780B50003DC64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E503A6281D8780B50003DC64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E503A6291D8780B50003DC64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E503A6421D8780B50003DC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E503A6431D8780B50003DC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E503A6451D8780B50003DC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZapCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahara.ZapCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E503A6461D8780B50003DC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZapCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahara.ZapCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E503A6481D8780B50003DC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZapCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahara.ZapCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZapCodeChallenge.app/ZapCodeChallenge";
+			};
+			name = Debug;
+		};
+		E503A6491D8780B50003DC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZapCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahara.ZapCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZapCodeChallenge.app/ZapCodeChallenge";
+			};
+			name = Release;
+		};
+		E503A64B1D8780B50003DC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZapCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahara.ZapCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZapCodeChallenge;
+			};
+			name = Debug;
+		};
+		E503A64C1D8780B50003DC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZapCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takahara.ZapCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZapCodeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E503A6171D8780B50003DC64 /* Build configuration list for PBXProject "ZapCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E503A6421D8780B50003DC64 /* Debug */,
+				E503A6431D8780B50003DC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E503A6441D8780B50003DC64 /* Build configuration list for PBXNativeTarget "ZapCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E503A6451D8780B50003DC64 /* Debug */,
+				E503A6461D8780B50003DC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E503A6471D8780B50003DC64 /* Build configuration list for PBXNativeTarget "ZapCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E503A6481D8780B50003DC64 /* Debug */,
+				E503A6491D8780B50003DC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E503A64A1D8780B50003DC64 /* Build configuration list for PBXNativeTarget "ZapCodeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E503A64B1D8780B50003DC64 /* Debug */,
+				E503A64C1D8780B50003DC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E503A6141D8780B50003DC64 /* Project object */;
+}

@@ -1,0 +1,32 @@
+{
+  "Imovel" : {
+        "CodImovel": 9234775,
+        "TipoImovel": "Apartamento",
+        "Endereco": {
+          "Logradouro": "Rua Olimpiadas",
+          "Numero": "",
+          "Complemento": "",
+          "CEP": "",
+          "Bairro": "São Geraldo",
+          "Cidade": "GRAVATAI",
+          "Estado": "RS"
+        },
+        "PrecoLocacao": 1000,
+        "Dormitorios": 2,
+        "Suites": 0,
+        "Vagas": 1,
+        "AreaUtil": 52,
+        "AreaTotal": 52,
+        "Fotos": [
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/imoveis/2636341/2d71a/c53ce51b3dc9410ab8a2_m.jpg",
+            "Principal": true,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          }
+        ],
+        "SubtipoImovel": "Apartamento Padrão",
+        "ZapID": "im08181777"
+      }
+}

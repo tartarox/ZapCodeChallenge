@@ -1,0 +1,47 @@
+{
+  "Imovel" : {
+        "CodImovel": 9235241,
+        "TipoImovel": "Terreno",
+        "Endereco": {
+          "Logradouro": "ENDEREÇO NÃO INFORMADO",
+          "Numero": "",
+          "Complemento": "",
+          "CEP": "",
+          "Bairro": "Bela Vista",
+          "Cidade": "GRAVATAI",
+          "Estado": "RS"
+        },
+        "PrecoVenda": 599000,
+        "PrecoLocacao": 12000,
+        "Dormitorios": 2,
+        "Suites": 0,
+        "Vagas": 1,
+        "AreaUtil": 52,
+        "AreaTotal": 52,
+        "Fotos": [
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/2594665/1b52c9ca-d184-4c34-9033-9100e6ea6124_gg.jpg",
+            "Principal": false,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          },
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/imoveis/2162997/venda9000/f0e23e2ffef54d8bbd76_m.jpg",
+            "Principal": true,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          },
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/imoveis/2753754/zap820251/c0ada3b426a34a2880a7_m.jpg",
+            "Principal": false,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          }
+        ],
+        "SubtipoImovel": "Loteamento/Condomínio",
+        "ZapID": "im08182243"
+      }
+}

@@ -1,0 +1,32 @@
+{
+  "Imovel" : {
+        "CodImovel": 9235243,
+        "TipoImovel": "Casa",
+        "Endereco": {
+          "Logradouro": "ENDEREÇO NÃO INFORMADO",
+          "Numero": "",
+          "Complemento": "",
+          "CEP": "",
+          "Bairro": "Parque dos Anjos",
+          "Cidade": "GRAVATAI",
+          "Estado": "RS"
+        },
+        "PrecoVenda": 638297,
+        "Dormitorios": 2,
+        "Suites": 0,
+        "Vagas": 1,
+        "AreaUtil": 52,
+        "AreaTotal": 52,
+        "Fotos": [
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/2595177/10fd9bc1-fc03-47c4-bc27-c353c47242b1_gg.jpg",
+            "Principal": true,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          }
+        ],
+        "SubtipoImovel": "Casa Padrão",
+        "ZapID": "im08182245"
+      }
+}

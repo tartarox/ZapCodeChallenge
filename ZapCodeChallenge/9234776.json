@@ -1,0 +1,39 @@
+{
+  "Imovel" : {
+        "CodImovel": 9234776,
+        "TipoImovel": "Terreno",
+        "Endereco": {
+          "Logradouro": "ENDEREÇO NÃO INFORMADO",
+          "Numero": "",
+          "Complemento": "",
+          "CEP": "",
+          "Bairro": "",
+          "Cidade": "",
+          "Estado": ""
+        },
+        "PrecoVenda": 179202,
+        "Dormitorios": 2,
+        "Suites": 0,
+        "Vagas": 1,
+        "AreaUtil": 52,
+        "AreaTotal": 52,
+        "Fotos": [
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/805592/d6bd9e6f-c3bc-4010-8b91-6c549f0b3a23_m.jpg",
+            "Principal": false,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          },
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/imoveis/2162997/venda9000/f0e23e2ffef54d8bbd76_m.jpg",
+            "Principal": true,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          }
+        ],
+        "SubtipoImovel": "Loteamento/Condomínio",
+        "ZapID": "im08181778"
+      }
+}

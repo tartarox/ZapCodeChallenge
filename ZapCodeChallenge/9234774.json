@@ -1,0 +1,40 @@
+{
+  "Imovel" : {
+        "CodImovel": 9234774,
+        "TipoImovel": "Apartamento",
+        "Endereco": {
+          "Logradouro": "Rua Olimpiadas",
+          "Numero": "205",
+          "Complemento": "11",
+          "CEP": "04256177",
+          "Bairro": "Vila Olímpia",
+          "Cidade": "São Paulo",
+          "Estado": "SP"
+        },
+        "PrecoVenda": 139000,
+        "PrecoLocacao": 1000,
+        "Dormitorios": 2,
+        "Suites": 0,
+        "Vagas": 1,
+        "AreaUtil": 52,
+        "AreaTotal": 52,
+        "Fotos": [
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/2594665/1b52c9ca-d184-4c34-9033-9100e6ea6124_gg.jpg",
+            "Principal": true,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          },
+          {
+            "UrlImagem": "http://imagens.zapcorp.com.br/2594665/1b52c9ca-d184-4c34-9033-9100e6ea6124_gg.jpg",
+            "Principal": false,
+            "Descricao": "",
+            "Origem": "ZapImoveis",
+            "CodImobiliaria": 0
+          }
+        ],
+        "SubtipoImovel": "Apartamento Padrão",
+        "ZapID": "im08181776"
+      }
+}
